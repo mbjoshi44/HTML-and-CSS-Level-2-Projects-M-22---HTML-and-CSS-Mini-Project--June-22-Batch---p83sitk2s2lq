@@ -1,1 +1,636 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #000;
+
+}
+
+.toppart {
+    background: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent 60%, rgba(0, 0, 0, .8)), url(images/netflixbg.jpg);
+    ;
+    width: 100%;
+    color: white;
+    border-bottom: 8px solid #222;
+}
+
+.top {
+    display: flex;
+}
+
+.top img {
+    height: 55px;
+    margin-top: 22px;
+    margin-left: 50px;
+
+}
+
+.freespace {
+    border: 0px solid rebeccapurple;
+    width: 68%;
+
+}
+
+.formtop select {
+    background-color: black;
+    color: white;
+    font-style: bold;
+    height: 50%;
+    width: 100px;
+    font-size: 1rem;
+    margin-top: 28px;
+    text-align: center;
+}
+
+.formtop button {
+    background-color: red;
+    color: white;
+    font-style: bold;
+    height: 50%;
+    width: 100px;
+    font-size: 1rem;
+    margin-top: 28px;
+    margin-left: 30px;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+.frontshow {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 180px 0px;
+
+}
+
+.frontshow h1 {
+    font-size: 4rem;
+}
+
+.frontshow h2 {
+    font-size: 2rem;
+    text-decoration: none
+}
+
+.frontshow h3 {
+    font-size: 1.4rem;
+    color: white;
+}
+
+.forlogin {
+    border: 0px solid seagreen;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forlogin input {
+    font-size: 19px;
+    outline: none;
+    border: 1px solid #8c8c8c;
+    color: #000;
+    border-radius: 2px;
+    padding: 10px 10px 0 0;
+    min-width: 400px;
+    height: 60px;
+    align-items: center;
+}
+
+.forlogin a {
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    border-radius: 2px;
+    font-size: 1.625rem;
+    background-color: #e50914;
+    color: #fff;
+    line-height: 60px;
+    min-width: 160px;
+    text-decoration: none;
+
+}
+
+.forlogin a:hover {
+    background-color: red;
+}
+
+.part1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 10rem;
+    border-bottom: 8px solid #222;
+}
+
+.part1 .talk {
+    width: 40%;
+}
+
+.part1 .image01 {
+    width: 45%;
+
+}
+
+.part1 .image01 img {
+    width: 100%;
+}
+
+.part1 .image01 video {
+    top: 965px;
+    height: 222px;
+    position: absolute;
+    left: 1042px;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+
+}
+
+
+.part1 .talk h1 {
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.part1 .talk p {
+    font-size: 1.7rem;
+    color: white;
+}
+
+
+
+.part01 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 10rem;
+    border-bottom: 8px solid #222;
+}
+
+.part01 .talk {
+    width: 40%;
+}
+
+.part01 .image001 {
+    width: 45%;
+
+}
+
+.part01 .image001 img {
+    width: 100%;
+}
+
+.part01 .image001 video {
+    width: 325px;
+    top: 1873px;
+    height: 195px;
+    position: absolute;
+    left: 1040px;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+
+}
+
+
+.part01 .talk h1 {
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.part01 .talk p {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.part2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 10rem;
+    border-bottom: 8px solid #222;
+}
+
+.part2 .talk {
+    width: 48%;
+}
+
+.part2 .image01 {
+    width: 45%;
+
+}
+
+.part2 .image01 img {
+    width: 100%;
+}
+
+.part2 .talk h1 {
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.part2 .talk p {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.part2 .image01 .anim {
+    color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background: #000;
+    border: 2px solid hsla(0, 0%, 100%, .25);
+    border-radius: 0.75em;
+    box-shadow: 0 0 2em 0 #000;
+    transform: translateX(-50%);
+    width: 23%;
+    height: 100px;
+    top: 1530px;
+    left: 440px;
+}
+
+.insideMob {
+    display: flex;
+    padding: 25px;
+
+}
+
+.insideMob img {
+    height: 85px;
+    padding: 8px 7px;
+
+}
+
+.ins {
+    padding-left: 20px;
+}
+
+.ins h5 {
+    color: blue;
+}
+
+.part3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 10rem;
+    border-bottom: 8px solid #222;
+}
+
+.part3 .talk {
+    width: 43%;
+}
+
+.part3 .image01 {
+    width: 43%;
+
+}
+
+.part3 .image01 img {
+    width: 100%;
+}
+
+.part3 .talk h1 {
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.part3 .talk p {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.list {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.list h1 {
+    color: #fff;
+    font-size: 3rem;
+    padding: 3rem 0 4rem 0;
+}
+
+.title {
+    background-color: #303030;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.icon {
+    width: 20px;
+    position: relative;
+}
+
+.icon::before,
+.icon::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    top: -1.5px;
+}
+
+.icon::after {
+    transform: rotate(90deg);
+    transition: 0.5s linear;
+}
+
+.text {
+    background-color: #303030;
+    line-height: 35px;
+    margin: 3px 0;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-decoration: none;
+    height: 0px;
+    opacity: 0;
+}
+
+.item:target .text {
+    opacity: 1;
+    height: auto;
+    padding: 20px 30px;
+    margin: 0;
+    border: 2px solid #000;
+    margin-bottom: 6px;
+}
+
+.item:target .icon::after {
+    transform: rotateY(90deg);
+
+}
+
+.banner {
+    border-bottom: 8px solid #222;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 75px 0px;
+    font-size: 1.2rem;
+
+}
+
+.footers {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 4rem 6rem;
+}
+
+.footers .one {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 25%;
+}
+
+.footers .one li {
+    padding: 7px 0;
+}
+
+.footers .one li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footers .one li a:hover {
+    border-bottom: 1px solid #ccc;
+}
+
+.last {
+    padding-left: 250px;
+
+}
+
+.last select {
+    background-color: #000;
+    color: #fff;
+    height: 35px;
+    width: 135px;
+}
+
+@media screen and (max-width: 1463px) {
+    .freespace {
+
+        width: 450px;
+    }
+
+    .top img {
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 10px;
+
+    }
+
+    .part1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem 1rem;
+        border-bottom: 8px solid #222;
+    }
+
+    .part01 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem 1rem;
+        border-bottom: 8px solid #222;
+    }
+
+    .part1 .talk {
+        width: 40%;
+    }
+
+    .part1 .image01 {
+        width: 45%;
+
+    }
+
+    .part1 .image01 img {
+        width: 100%;
+    }
+
+    .part1 .talk h1 {
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
+        padding-bottom: 5px;
+        color: white;
+    }
+
+    .part1 .talk p {
+        font-size: 0.7rem;
+        color: white;
+    }
+
+
+    .part2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem 1rem;
+        border-bottom: 8px solid #222;
+    }
+
+    .part2 .talk {
+        width: 80%;
+    }
+
+    .part2 .image01 {
+        width: 50%;
+
+    }
+
+    .part2 .image01 img {
+        width: 100%;
+    }
+
+    .part2 .talk h1 {
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
+        padding-bottom: 5px;
+        color: white;
+    }
+
+    .part2 .talk p {
+        font-size: 0.7rem;
+        color: white;
+    }
+
+    .part3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem 1rem;
+        border-bottom: 8px solid #222;
+    }
+
+    .part3 .talk {
+        width: 80%;
+    }
+
+    .part3 .image01 img {
+        width: 100%;
+    }
+
+    .part3 .talk h1 {
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
+        padding-bottom: 5px;
+
+    }
+
+    .part3 .talk p {
+        font-size: 0.7rem;
+
+    }
+
+    .list h1 {
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 2rem 0 2rem 0;
+    }
+
+    .frontshow h3 {
+        font-size: 1.1rem;
+        color: white;
+        text-align: center;
+    }
+
+    .forlogin {
+        border: 0px solid seagreen;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .forlogin input {
+        height: 70px;
+        width: 80%;
+
+    }
+
+    .forlogin button {
+        height: 50px;
+        width: 40%;
+        margin-top: 8px;
+        font-size: 1.2rem;
+
+
+    }
+
+    .footers {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        padding: 4rem 10rem;
+    }
+
+    .footers .one {
+
+        width: 50%;
+    }
+
+    .footers .one li {
+        padding: 7px 0;
+    }
+
+    .footers .one li a {
+        color: #ccc;
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+    .freespace {
+        justify-content: space-between;
+        width: 0px;
+    }
+
+    .part1 .talk h1 {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        padding-bottom: 5px;
+        color: white;
+    }
+
+    .part1 .talk p {
+        font-size: 0.7rem;
+        color: white;
+    }
+}
